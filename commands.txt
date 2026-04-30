@@ -1,0 +1,10 @@
+docker build -t my-python-app .
+
+docker run -v $(pwd):/app my-python-app;
+
+docker run --name test-app \
+  --memory=128m \
+  --cpus="0.5" \
+  --network none \
+  --restart unless-stopped \
+  my-python-app
