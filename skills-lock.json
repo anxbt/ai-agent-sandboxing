@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "awwwards-ui-skills": {
+      "source": "ihlamury/design-skills",
+      "sourceType": "github",
+      "skillPath": "skills/awwwards/SKILL.md",
+      "computedHash": "4d10d8a5120bd962f862a57ad1581c499dad7ce568d64dd130ae0a5fe5e32881"
+    }
+  }
+}
